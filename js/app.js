@@ -1,8 +1,5 @@
 userName = 'Pepe hands';
 
-// example of ternary expression
-// day === "Monday" ? price -= 1.5 : price += 1.5;
-
 userName === 'Pepe hands' ? console.log(`Hello, ${userName}!`) : console.log('Hello!');
 
 const userQuestion = 'will there be a tomorrow?';
@@ -13,7 +10,7 @@ let randomNumber = Math.floor(Math.random() * 8);
 
 let eightBall = '';
 
-
+//This sorts through and add the eight balls results
 switch (randomNumber) {
   case 0:
     eightBall = 'It is certain';
@@ -39,6 +36,5 @@ switch (randomNumber) {
   case 7:
     eightBall = 'Signs point to yes';
     break;
-
 }
 console.log(`The 8 Ball says ${eightBall}`)
